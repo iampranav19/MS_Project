@@ -1,0 +1,5 @@
+package com.pranav.userService.entities;
+
+public class User {
+
+}

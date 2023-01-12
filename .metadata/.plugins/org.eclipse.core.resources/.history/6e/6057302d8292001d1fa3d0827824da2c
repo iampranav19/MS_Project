@@ -1,0 +1,5 @@
+package com.pranav.userService.repositories;
+
+public interface UserRepository {
+
+}

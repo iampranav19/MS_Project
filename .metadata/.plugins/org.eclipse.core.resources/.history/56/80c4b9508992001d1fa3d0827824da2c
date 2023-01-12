@@ -1,0 +1,18 @@
+package com.pranav.userService.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.pranav.userService.service.UserServiceImpl;
+
+@RestController
+@RequestMapping("/user")
+public class UserController {
+
+	@Autowired
+	UserServiceImpl userServiceImpl;
+	
+	@GetMapping("/all")
+}

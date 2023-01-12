@@ -1,0 +1,5 @@
+package com.pranav.userService.controller;
+
+public class UserController {
+
+}

@@ -1,0 +1,22 @@
+package com.pranav.userService.service;
+
+import java.util.List;
+
+import com.pranav.userService.entities.User;
+
+public interface UserService {
+
+	// To save user
+	User saveUser(User user);
+	
+	// To get all the users
+	List<User> getAllUsers();
+	
+	// To get Single User
+	User getUserById(Integer id);
+	
+	// To Delete the user
+	Integer deleteUser(Integer id);
+	
+	
+}
